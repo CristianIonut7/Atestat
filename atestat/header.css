@@ -1,0 +1,44 @@
+.header
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    top:0px;
+    z-index: 300;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    align-items:center;
+    border:solid;
+    color:lightblue;
+    border-color:lightblue;
+    background-color:black;
+    border-radius:5px;
+}
+.left
+{
+    font-size: 35px;
+    font-weight: 600;
+    white-space: nowrap;
+    padding: 20px;
+    padding-left:70px;
+    text-shadow: 2px 2px 1px rgb(100, 135, 146);
+}
+.middle
+{
+    flex:1;
+    padding-left:100px;
+    padding:31px;
+}
+.right
+{
+    color:lightblue;
+    width: 80px;
+    padding:31px;
+}
+.right-img
+{
+    border-radius: 25px;
+    width: 50px;
+}
